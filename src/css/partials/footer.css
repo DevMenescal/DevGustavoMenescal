@@ -1,0 +1,34 @@
+footer{
+    width: 100%;
+    padding: 50px 10%;
+    background-color: var(--cor_fundo);
+}
+
+.footer_social{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_social a{
+    background-color: var(--cor_cinza);
+    color: var(--cor_secundaria);
+    padding: 20px 25px;
+    font-size: 30px;
+    border-radius: 50px;
+    margin: 0px 20px;
+}
+
+.footer_social a:hover{
+    background-color: var(--cor_principal);
+    color: var(--cor_cinza);
+}
+
+.footer_copy{
+    width: 100%;
+    padding: 30px 0px;
+    color: var(--cor_secundaria_50);
+    font-size: 20px;
+    text-align: center;
+}

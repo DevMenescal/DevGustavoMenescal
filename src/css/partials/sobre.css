@@ -1,0 +1,145 @@
+#sobre{
+    width: 100%;
+    padding: 200px 10%; 
+    background-color: var(--cor_fundo);
+    display: flex;
+    justify-content: space-around; 
+    position: relative;
+}
+
+@media(max-width: 1200px){
+    #sobre{
+      flex-direction: column;
+    }
+  }
+
+.sobre_ilustracao{
+    display: flex;
+    align-items: center;
+}
+
+.sobre_ilustracao img{
+    width: 100%;
+}
+
+@media(max-width: 1200px){
+    .sobre_ilustracao img{
+        position: absolute;
+        bottom: 70px;
+        right: 10%;
+        width: 35%;
+    }
+}
+
+@media(max-width: 480px){
+    .sobre_ilustracao img{
+      width: 50%;
+    } 
+  }
+
+#musica_sobre{
+    position: absolute;
+    left: 5%;
+    top: 8%;
+}
+
+#seta_sobre{
+    position: absolute;
+    left: 22%;
+    bottom: 20%;
+}
+
+@media(max-width: 1200px){
+    #seta_sobre{
+        left: 35%;
+        bottom: 13%;
+    }
+}
+
+@media(max-width: 800px){
+    #seta_sobre{
+        display: none;
+    }
+}
+
+.sobre_conteudo{
+    width: 50%;
+    min-width: 600px;
+}
+
+@media(max-width: 1200px){
+    .sobre_conteudo{
+      width: 100%;
+      margin-bottom: 100px;
+    }
+}
+
+@media(max-width: 800px){
+    .sobre_conteudo{
+      min-width: 100%;
+    }
+}
+
+.sobre_conteudo h1{
+    font-size: 78px;
+    color: var(--cor_secundaria);
+}
+
+@media(max-width: 800px){
+    .sobre_conteudo h1{
+      font-size: 50px;
+    }
+  }
+
+@media(max-width: 480px){
+    .sobre_conteudo h1 img{
+      display: none;
+    }
+}
+
+.sobre_conteudo h1 span{
+    color: var(--cor_principal);
+}
+
+.sobre_conteudo p{
+    width: 85%;
+    color: var(--cor_secundaria);
+    font-size: 20px;
+    line-height: 27px; 
+    opacity: 75%; 
+    margin-bottom: 40px; 
+    margin-top: 15px; 
+}
+
+@media(max-width: 480px){
+    .sobre_conteudo p{
+      width: 100%;
+    }
+}
+
+.sobre_linkedin{
+    color: var(--cor_secundaria);
+    background-color: var(--cor_principal);
+    margin-right: 30px; 
+    padding: 10px 20px; 
+    border-radius: 30px; 
+    font-weight: bold; 
+}
+
+.sobre_linkedin:hover{
+    border-color: var(--cor_cinza);
+    box-shadow: 4px 4px 4px #000000;
+}
+
+.sobre_github{
+    color: var(--cor_secundaria);
+    background-color: var(--cor_cinza);
+    padding: 15px 20px; /* expande as margens internas em toda as direções */
+    border-radius: 30px; /* cria as bordas arredondadas */
+    font-weight: bold; /* deixa a fonte em negrito */
+}
+
+.sobre_github:hover{
+    border-color: var(--cor_principal);
+    box-shadow: 4px 4px 4px #000000;
+}

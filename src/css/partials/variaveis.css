@@ -1,0 +1,8 @@
+:root{ /* criação das variáveis de cores */
+    --cor_principal: #00adb5;
+    --cor_secundaria: #eeeeee;
+    --cor_secundaria_50: #eeeeee84;
+    --cor_fundo: #222831;
+    --cor_cinza: #393e46;
+    --cor_cinza_50: #393e4675;
+}
